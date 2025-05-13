@@ -1,0 +1,51 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  buildConfiguration: 'Release'
+  major: '1'
+  minor: '0'
+  # Use the build ID for the patch version to increment automatically
+  patch: $[counter(format('{0}.{1}', variables['major'], variables['minor']), 0)]
+  version: $(major).$(minor).$(patch)
+
+steps:
+- task: UseDotNet@2
+  displayName: 'Use .NET SDK'
+  inputs:
+    packageType: 'sdk'
+    version: '6.0.x'
+    installationPath: $(Agent.ToolsDirectory)/dotnet
+
+- script: |
+    echo "Building version $(version)"
+    dotnet restore
+    dotnet build --configuration $(buildConfiguration)
+  displayName: 'Restore and Build'
+
+- script: |
+    echo "##[section]Current Version: $(version)"
+  displayName: 'Print Version to Console'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Package Application'
+  inputs:
+    command: 'pack'
+    packagesToPack: '**/*.csproj'
+    versioningScheme: 'byEnvVar'
+    versionEnvVar: 'version'
+    configuration: '$(buildConfiguration)'
+
+- task: NuGetAuthenticate@1
+  displayName: 'NuGet Authenticate'
+
+- task: NuGetCommand@2
+  displayName: 'Publish to Azure Artifacts'
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: 'HelloWorldProject/HelloWorldFeed'
