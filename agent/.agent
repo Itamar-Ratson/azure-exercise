@@ -1,0 +1,9 @@
+﻿{
+  "acceptTeeEula": true,
+  "agentId": 9,
+  "agentName": "ubuntu-agent",
+  "poolId": 10,
+  "poolName": "SelfHostedPool",
+  "serverUrl": "https://dev.azure.com/ItamarRatson/",
+  "workFolder": "_work"
+}

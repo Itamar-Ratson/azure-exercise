@@ -1,0 +1,346 @@
+[2025-05-13 12:23:02Z INFO AgentProcess] Agent package linux-x64.
+[2025-05-13 12:23:02Z INFO AgentProcess] Running on Linux (X64).
+[2025-05-13 12:23:02Z INFO AgentProcess] RuntimeInformation: Ubuntu 24.04.2 LTS.
+[2025-05-13 12:23:02Z INFO AgentProcess] Version: 4.255.0
+[2025-05-13 12:23:02Z INFO AgentProcess] Commit: 470b366b07474086350f1b664c1cd1972e9e637e
+[2025-05-13 12:23:02Z INFO AgentProcess] Culture: en-US
+[2025-05-13 12:23:02Z INFO AgentProcess] UI Culture: en-US
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:02Z INFO AgentProcess] Validating directory permissions for: '/home/itamar/github/agent'
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:02Z INFO CommandSettings] Run {
+  "Commit": false,
+  "Diagnostics": false,
+  "RunOnce": false,
+  "StartupType": "service",
+  "DebugMode": false,
+  "Help": false,
+  "Version": false
+}
+[2025-05-13 12:23:02Z INFO AgentProcess] Arguments parsed
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:02Z INFO HostContext] Well known config file 'Proxy': '/home/itamar/github/agent/.proxy'
+[2025-05-13 12:23:02Z INFO VstsAgentWebProxy] No proxy setting found.
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:02Z INFO HostContext] Well known config file 'Certificates': '/home/itamar/github/agent/.certificates'
+[2025-05-13 12:23:02Z INFO AgentCertificateManager] No certificate setting found.
+[2025-05-13 12:23:02Z INFO Agent] ExecuteCommand
+[2025-05-13 12:23:02Z INFO ConfigurationStore] currentAssemblyLocation: /home/itamar/github/agent/bin/Agent.Listener.dll
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:02Z INFO ConfigurationStore] binPath: /home/itamar/github/agent/bin
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:02Z INFO ConfigurationStore] RootFolder: /home/itamar/github/agent
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:02Z INFO HostContext] Well known config file 'Agent': '/home/itamar/github/agent/.agent'
+[2025-05-13 12:23:02Z INFO ConfigurationStore] ConfigFilePath: /home/itamar/github/agent/.agent
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:02Z INFO HostContext] Well known config file 'Credentials': '/home/itamar/github/agent/.credentials'
+[2025-05-13 12:23:02Z INFO ConfigurationStore] CredFilePath: /home/itamar/github/agent/.credentials
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:02Z INFO HostContext] Well known config file 'Service': '/home/itamar/github/agent/.service'
+[2025-05-13 12:23:02Z INFO ConfigurationStore] ServiceConfigFilePath: /home/itamar/github/agent/.service
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:02Z INFO HostContext] Well known config file 'Autologon': '/home/itamar/github/agent/.autologon'
+[2025-05-13 12:23:02Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/itamar/github/agent/.autologon
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:02Z INFO HostContext] Well known config file 'Options': '/home/itamar/github/agent/.options'
+[2025-05-13 12:23:02Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/itamar/github/agent/.options
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:02Z INFO HostContext] Well known config file 'SetupInfo': '/home/itamar/github/agent/.setup_info'
+[2025-05-13 12:23:02Z INFO ConfigurationStore] SetupInfoFilePath: /home/itamar/github/agent/.setup_info
+[2025-05-13 12:23:02Z INFO ConfigurationManager] LoadSettings
+[2025-05-13 12:23:02Z INFO ConfigurationStore] IsConfigured()
+[2025-05-13 12:23:02Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-13 12:23:02Z INFO ConfigurationManager] Is configured: True
+[2025-05-13 12:23:02Z INFO ConfigurationStore] Read setting file: 201 chars
+[2025-05-13 12:23:02Z INFO ConfigurationManager] Settings Loaded
+[2025-05-13 12:23:02Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-05-13 12:23:02Z INFO ConfigurationStore] IsServiceConfigured: True
+[2025-05-13 12:23:02Z INFO ConfigurationStore] IsConfigured()
+[2025-05-13 12:23:02Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-13 12:23:02Z INFO ConfigurationManager] Is configured: True
+[2025-05-13 12:23:02Z INFO Agent] Set agent startup type - Service
+[2025-05-13 12:23:02Z INFO CommandSettings] Flag 'debug': 'False'
+[2025-05-13 12:23:02Z INFO ConfigurationStore] HasCredentials()
+[2025-05-13 12:23:02Z INFO ConfigurationStore] stored True
+[2025-05-13 12:23:02Z INFO CredentialManager] GetCredentialProvider
+[2025-05-13 12:23:02Z INFO CredentialManager] Creating type OAuth
+[2025-05-13 12:23:02Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:02Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:02Z INFO HostContext] Well known config file 'RSACredentials': '/home/itamar/github/agent/.credentials_rsaparams'
+[2025-05-13 12:23:02Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:23:02Z INFO ConfigurationManager] LoadSettings
+[2025-05-13 12:23:02Z INFO ConfigurationStore] IsConfigured()
+[2025-05-13 12:23:02Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-13 12:23:02Z INFO ConfigurationManager] Is configured: True
+[2025-05-13 12:23:02Z INFO ConfigurationManager] Settings Loaded
+[2025-05-13 12:23:04Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodneu3.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 90edeb96-aab6-477a-a1fd-ad86ba8bff11
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 33a2384d-878b-4514-80df-5f798d85df18
+X-TFS-Session: 49ab2736-4ed3-446f-b611-898f9434d304
+X-VSS-E2EID: ee2eaa6c-f48d-4f42-b8b9-ceb6aa2557a6
+X-VSS-SenderDeploymentId: d9ce0c85-0c81-df07-69c7-7dd2279019be
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodneu3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/ItamarRatson/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/ItamarRatson/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodneu1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2FItamarRatson%2F_apis%2FCustomerIntelligence%2FEvents&redirect=1&hid=cc04ea86-dc3f-44c5-a7a7-47c147dc02e8&context=eyJodCI6MiwiaGlkIjoiYmJhOTAxODAtOGU4Ny00NzdkLThmOGQtZGM3ZDk3OGYzN2Q2IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:3b290982-edaa-4a50-808e-c001f7daef49
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 879ABEA39235470F8DEB4348455C8A58 Ref B: TLV30EDGE0511 Ref C: 2025-05-13T12:23:03Z
+Date: Tue, 13 May 2025 12:23:03 GMT
+
+[2025-05-13 12:23:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:23:04Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:23:04Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2025-05-13 12:23:05Z INFO CommandSettings] Flag 'once': 'False'
+[2025-05-13 12:23:05Z INFO CommandSettings] Flag 'once': 'False'
+[2025-05-13 12:23:05Z INFO Agent] RunAsync
+[2025-05-13 12:23:05Z INFO ConfigurationManager] LoadSettings
+[2025-05-13 12:23:05Z INFO ConfigurationStore] IsConfigured()
+[2025-05-13 12:23:05Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-13 12:23:05Z INFO ConfigurationManager] Is configured: True
+[2025-05-13 12:23:05Z INFO ConfigurationManager] Settings Loaded
+[2025-05-13 12:23:05Z INFO MessageListener] {
+  "AcceptTeeEula": true,
+  "AgentId": 9,
+  "AgentName": "ubuntu-agent",
+  "PoolId": 10,
+  "PoolName": "SelfHostedPool",
+  "ServerUrl": "https://dev.azure.com/ItamarRatson/",
+  "WorkFolder": "_work"
+}
+[2025-05-13 12:23:05Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2025-05-13 12:23:05Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2025-05-13 12:23:05Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-05-13 12:23:05Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-05-13 12:23:05Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-05-13 12:23:05Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Adding '_': './externals/node20_1/bin/node'
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/home/itamar'
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Adding 'INVOCATION_ID': '9744773b42314b42910c473660748a84'
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Adding 'JOURNAL_STREAM': '9:978765'
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'itamar'
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Adding 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/system.slice/vsts.agent.ItamarRatson.SelfHostedPool.ubuntu\x2dagent.service/memory.pressure'
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Adding 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA='
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/home/itamar/github/agent'
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/bash'
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Adding 'SYSTEMD_EXEC_PID': '83774'
+[2025-05-13 12:23:05Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'itamar'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'android'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Checking file: '/home/itamar/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'ant'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'clang'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'curl'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'docker'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Adding 'docker': '/usr/bin/docker'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Adding 'dotnet': '/usr/bin/dotnet'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'git'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'java'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'javac'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'make'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'node'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'npm'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'python'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'python3'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Adding 'python3': '/usr/bin/python3'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'sh'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Adding 'sh': '/usr/bin/sh'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'rake'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'generator'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2025-05-13 12:23:05Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:23:05Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:05Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:05Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'ubuntu-agent'
+[2025-05-13 12:23:05Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Linux'
+[2025-05-13 12:23:05Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2025-05-13 12:23:05Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'False'
+[2025-05-13 12:23:05Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '4.255.0'
+[2025-05-13 12:23:05Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'laptop'
+[2025-05-13 12:23:05Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:23:05Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:23:05Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/home/itamar/github/agent'
+[2025-05-13 12:23:05Z INFO MessageListener] Loading Credentials
+[2025-05-13 12:23:05Z INFO ConfigurationStore] HasCredentials()
+[2025-05-13 12:23:05Z INFO ConfigurationStore] stored True
+[2025-05-13 12:23:05Z INFO CredentialManager] GetCredentialProvider
+[2025-05-13 12:23:05Z INFO CredentialManager] Creating type OAuth
+[2025-05-13 12:23:05Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-13 12:23:05Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:23:05Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2025-05-13 12:23:05Z INFO MessageListener] Attempt to create session.
+[2025-05-13 12:23:05Z INFO MessageListener] Connecting to the Agent Server...
+[2025-05-13 12:23:05Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2025-05-13 12:23:05Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-13 12:23:05Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodneu3.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 2be1ffe1-41bc-40e7-9e29-299d9d16fd2a
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: dd5bf91d-b7b7-45e2-a84d-52b49e5bf62c
+X-TFS-Session: 49ab2736-4ed3-446f-b611-898f9434d304
+X-VSS-E2EID: ef42621a-c02e-4306-8b30-d563fa077a85
+X-VSS-SenderDeploymentId: d9ce0c85-0c81-df07-69c7-7dd2279019be
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodneu3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/ItamarRatson/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/ItamarRatson/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodneu1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2FItamarRatson%2F_apis%2FconnectionData%3FconnectOptions%3D0%26lastChangeId%3D21405716%26lastChangeId64%3D21405716&redirect=1&hid=cc04ea86-dc3f-44c5-a7a7-47c147dc02e8&context=eyJodCI6MiwiaGlkIjoiYmJhOTAxODAtOGU4Ny00NzdkLThmOGQtZGM3ZDk3OGYzN2Q2IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:3b290982-edaa-4a50-808e-c001f7daef49
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: CFC6622BD3E541A59D3AFFD6005CAA64 Ref B: TLV30EDGE0413 Ref C: 2025-05-13T12:23:05Z
+Date: Tue, 13 May 2025 12:23:04 GMT
+
+[2025-05-13 12:23:05Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:23:05Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:23:06Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2025-05-13 12:23:06Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-13 12:23:06Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-05-13 12:23:06Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-13 12:23:06Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-05-13 12:23:06Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-13 12:23:07Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-13 12:23:07Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-13 12:23:07Z INFO MessageListener] VssConnection created
+[2025-05-13 12:23:07Z INFO MessageListener] Session created.
+[2025-05-13 12:23:07Z INFO Terminal] WRITE LINE: 2025-05-13 12:23:07Z: Listening for Jobs
+[2025-05-13 12:23:07Z INFO JobDispatcher] Set agent/worker IPC timeout to 30 seconds.
+[2025-05-13 12:23:57Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:23:57Z INFO MessageListener] Sleeping for 12.262 seconds before retrying.
+[2025-05-13 12:25:00Z INFO MessageListener] Sleeping for 12.054 seconds before retrying.
+[2025-05-13 12:25:17Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:26:02Z INFO MessageListener] Sleeping for 5.409 seconds before retrying.
+[2025-05-13 12:26:37Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:26:57Z INFO MessageListener] Sleeping for 10.247 seconds before retrying.
+[2025-05-13 12:27:57Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:27:58Z INFO MessageListener] Sleeping for 5.184 seconds before retrying.
+[2025-05-13 12:28:53Z INFO MessageListener] Sleeping for 14.79 seconds before retrying.
+[2025-05-13 12:29:18Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:29:58Z INFO MessageListener] Sleeping for 8.966 seconds before retrying.
+[2025-05-13 12:30:38Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:30:57Z INFO MessageListener] Sleeping for 12.916 seconds before retrying.
+[2025-05-13 12:31:58Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:32:00Z INFO MessageListener] Sleeping for 8.716 seconds before retrying.
+[2025-05-13 12:32:59Z INFO MessageListener] Sleeping for 6.852 seconds before retrying.
+[2025-05-13 12:33:18Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:33:48Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:33:56Z INFO MessageListener] Sleeping for 8.844 seconds before retrying.
+[2025-05-13 12:34:18Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:34:48Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:34:55Z INFO MessageListener] Sleeping for 5.557 seconds before retrying.
+[2025-05-13 12:35:51Z INFO MessageListener] Sleeping for 13.437 seconds before retrying.
+[2025-05-13 12:36:04Z INFO MessageListener] Sleeping for 10.551 seconds before retrying.
+[2025-05-13 12:36:08Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:36:39Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:37:05Z INFO MessageListener] Sleeping for 13.357 seconds before retrying.
+[2025-05-13 12:37:59Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:38:08Z INFO MessageListener] Sleeping for 12.611 seconds before retrying.
+[2025-05-13 12:38:29Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:38:59Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:39:11Z INFO MessageListener] Sleeping for 5.318 seconds before retrying.
+[2025-05-13 12:40:07Z INFO MessageListener] Sleeping for 14.84 seconds before retrying.
+[2025-05-13 12:40:19Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:41:12Z INFO MessageListener] Sleeping for 10.179 seconds before retrying.
+[2025-05-13 12:41:39Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:42:12Z INFO MessageListener] Sleeping for 9.935 seconds before retrying.
+[2025-05-13 12:42:22Z INFO MessageListener] Sleeping for 5.217 seconds before retrying.
+[2025-05-13 12:42:59Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:43:17Z INFO MessageListener] Sleeping for 7.191 seconds before retrying.
+[2025-05-13 12:44:15Z INFO MessageListener] Sleeping for 9.866 seconds before retrying.
+[2025-05-13 12:44:19Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:44:50Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:45:15Z INFO MessageListener] Sleeping for 14.743 seconds before retrying.
+[2025-05-13 12:46:10Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:46:19Z INFO MessageListener] Sleeping for 13.426 seconds before retrying.
+[2025-05-13 12:47:23Z INFO MessageListener] Sleeping for 13.085 seconds before retrying.
+[2025-05-13 12:47:30Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:48:00Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:48:26Z INFO MessageListener] Sleeping for 11.614 seconds before retrying.
+[2025-05-13 12:49:20Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:49:28Z INFO MessageListener] Sleeping for 6.738 seconds before retrying.
+[2025-05-13 12:49:50Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:50:25Z INFO MessageListener] Sleeping for 13.28 seconds before retrying.
+[2025-05-13 12:51:10Z INFO MessageListener] Sent GetAgentMessage to keep alive agent 9, session '5d4eb3e5-52f8-4f9e-8220-1fc23370b163'.
+[2025-05-13 12:51:28Z INFO MessageListener] Sleeping for 10.344 seconds before retrying.

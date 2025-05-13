@@ -1,0 +1,538 @@
+[2025-05-13 12:18:53Z INFO AgentProcess] Agent package linux-x64.
+[2025-05-13 12:18:53Z INFO AgentProcess] Running on Linux (X64).
+[2025-05-13 12:18:53Z INFO AgentProcess] RuntimeInformation: Ubuntu 24.04.2 LTS.
+[2025-05-13 12:18:53Z INFO AgentProcess] Version: 4.255.0
+[2025-05-13 12:18:53Z INFO AgentProcess] Commit: 470b366b07474086350f1b664c1cd1972e9e637e
+[2025-05-13 12:18:53Z INFO AgentProcess] Culture: en-US
+[2025-05-13 12:18:53Z INFO AgentProcess] UI Culture: en-US
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:18:53Z INFO AgentProcess] Validating directory permissions for: '/home/itamar/github/agent'
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:18:53Z INFO HostContext] Setting up value for origin: Configure.Password
+[2025-05-13 12:18:53Z INFO HostContext] Value is empty.
+[2025-05-13 12:18:53Z INFO HostContext] Setting up value for origin: Configure.ProxyPassword
+[2025-05-13 12:18:53Z INFO HostContext] Value is empty.
+[2025-05-13 12:18:53Z INFO HostContext] Setting up value for origin: Configure.SslClientCert
+[2025-05-13 12:18:53Z INFO HostContext] Value is empty.
+[2025-05-13 12:18:53Z INFO HostContext] Setting up value for origin: Configure.Token
+[2025-05-13 12:18:53Z INFO HostContext] Value is empty.
+[2025-05-13 12:18:53Z INFO HostContext] Setting up value for origin: Configure.WindowsLogonPassword
+[2025-05-13 12:18:53Z INFO HostContext] Value is empty.
+[2025-05-13 12:18:53Z INFO HostContext] Setting up value for origin: Configure.TenantId
+[2025-05-13 12:18:53Z INFO HostContext] Value is empty.
+[2025-05-13 12:18:53Z INFO HostContext] Setting up value for origin: Configure.ClientId
+[2025-05-13 12:18:53Z INFO HostContext] Value is empty.
+[2025-05-13 12:18:53Z INFO HostContext] Setting up value for origin: Configure.ClientSecret
+[2025-05-13 12:18:53Z INFO HostContext] Value is empty.
+[2025-05-13 12:18:53Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": false,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "AlwaysExtractTask": false,
+  "Agent": null,
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnableServiceSidTypeUnrestricted": false,
+  "EnvironmentVMResource": false,
+  "EnvironmentName": null,
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "DisableLogUploads": false,
+  "ReStreamLogsToFiles": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": null,
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": false,
+  "RunOnce": false,
+  "PreventServiceStart": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": null,
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": null,
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "ClientId": null,
+  "TenantId": null,
+  "ClientSecret": null,
+  "Help": false,
+  "Version": false
+}
+[2025-05-13 12:18:53Z INFO AgentProcess] Arguments parsed
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:18:53Z INFO HostContext] Well known config file 'Proxy': '/home/itamar/github/agent/.proxy'
+[2025-05-13 12:18:53Z INFO VstsAgentWebProxy] No proxy setting found.
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:18:53Z INFO HostContext] Well known config file 'Certificates': '/home/itamar/github/agent/.certificates'
+[2025-05-13 12:18:53Z INFO AgentCertificateManager] No certificate setting found.
+[2025-05-13 12:18:53Z INFO Agent] ExecuteCommand
+[2025-05-13 12:18:53Z INFO ConfigurationStore] currentAssemblyLocation: /home/itamar/github/agent/bin/Agent.Listener.dll
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:18:53Z INFO ConfigurationStore] binPath: /home/itamar/github/agent/bin
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:18:53Z INFO ConfigurationStore] RootFolder: /home/itamar/github/agent
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:18:53Z INFO HostContext] Well known config file 'Agent': '/home/itamar/github/agent/.agent'
+[2025-05-13 12:18:53Z INFO ConfigurationStore] ConfigFilePath: /home/itamar/github/agent/.agent
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:18:53Z INFO HostContext] Well known config file 'Credentials': '/home/itamar/github/agent/.credentials'
+[2025-05-13 12:18:53Z INFO ConfigurationStore] CredFilePath: /home/itamar/github/agent/.credentials
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:18:53Z INFO HostContext] Well known config file 'Service': '/home/itamar/github/agent/.service'
+[2025-05-13 12:18:53Z INFO ConfigurationStore] ServiceConfigFilePath: /home/itamar/github/agent/.service
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:18:53Z INFO HostContext] Well known config file 'Autologon': '/home/itamar/github/agent/.autologon'
+[2025-05-13 12:18:53Z INFO ConfigurationStore] AutoLogonSettingsFilePath: /home/itamar/github/agent/.autologon
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:18:53Z INFO HostContext] Well known config file 'Options': '/home/itamar/github/agent/.options'
+[2025-05-13 12:18:53Z INFO ConfigurationStore] RuntimeOptionsFilePath: /home/itamar/github/agent/.options
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:18:53Z INFO HostContext] Well known config file 'SetupInfo': '/home/itamar/github/agent/.setup_info'
+[2025-05-13 12:18:53Z INFO ConfigurationStore] SetupInfoFilePath: /home/itamar/github/agent/.setup_info
+[2025-05-13 12:18:53Z INFO Terminal] WRITE LINE: 
+  ___                      ______ _            _ _
+ / _ \                     | ___ (_)          | (_)
+/ /_\ \_____   _ _ __ ___  | |_/ /_ _ __   ___| |_ _ __   ___  ___
+|  _  |_  / | | | '__/ _ \ |  __/| | '_ \ / _ \ | | '_ \ / _ \/ __|
+| | | |/ /| |_| | | |  __/ | |   | | |_) |  __/ | | | | |  __/\__ \
+\_| |_/___|\__,_|_|  \___| \_|   |_| .__/ \___|_|_|_| |_|\___||___/
+                                   | |
+        agent v4.255.0             |_|          (commit 470b366)
+
+[2025-05-13 12:18:53Z INFO ConfigurationManager] ConfigureAsync
+[2025-05-13 12:18:53Z INFO ConfigurationStore] IsConfigured()
+[2025-05-13 12:18:53Z INFO ConfigurationStore] IsConfigured: False
+[2025-05-13 12:18:53Z INFO ConfigurationManager] Is configured: False
+[2025-05-13 12:18:53Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2025-05-13 12:18:53Z INFO Terminal] WRITE LINE: 
+[2025-05-13 12:18:53Z INFO Terminal] WRITE LINE: >> End User License Agreements:
+[2025-05-13 12:18:53Z INFO Terminal] WRITE LINE: 
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:18:53Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:18:53Z INFO Terminal] WRITE LINE: Building sources from a TFVC repository requires accepting the Team Explorer Everywhere End User License Agreement. This step is not required for building sources from Git repositories.
+
+A copy of the Team Explorer Everywhere license agreement can be found at:
+  /home/itamar/github/agent/license.html
+[2025-05-13 12:18:53Z INFO Terminal] WRITE LINE: 
+[2025-05-13 12:18:53Z INFO CommandSettings] Flag 'acceptteeeula': 'False'
+[2025-05-13 12:18:53Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-05-13 12:18:53Z INFO PromptManager] ReadValue
+[2025-05-13 12:18:53Z INFO Terminal] WRITE: Enter (Y/N) Accept the Team Explorer Everywhere license agreement now? (press enter for N) > 
+[2025-05-13 12:18:53Z INFO Terminal] READ LINE
+[2025-05-13 12:19:05Z INFO Terminal] Read value: 'y'
+[2025-05-13 12:19:05Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2025-05-13 12:19:05Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2025-05-13 12:19:05Z INFO CommandSettings] Flag 'environment': 'False'
+[2025-05-13 12:19:05Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2025-05-13 12:19:05Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2025-05-13 12:19:05Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2025-05-13 12:19:05Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2025-05-13 12:19:05Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2025-05-13 12:19:05Z INFO Terminal] WRITE LINE: 
+[2025-05-13 12:19:05Z INFO Terminal] WRITE LINE: >> Connect:
+[2025-05-13 12:19:05Z INFO Terminal] WRITE LINE: 
+[2025-05-13 12:19:05Z INFO CommandSettings] Arg 'url': ''
+[2025-05-13 12:19:05Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-05-13 12:19:05Z INFO PromptManager] ReadValue
+[2025-05-13 12:19:05Z INFO Terminal] WRITE: Enter server URL > 
+[2025-05-13 12:19:05Z INFO Terminal] READ LINE
+[2025-05-13 12:20:07Z INFO Terminal] Read value: 'https://dev.azure.com/ItamarRatson'
+[2025-05-13 12:20:07Z INFO ConfigurationManager] GetCredentialProvider
+[2025-05-13 12:20:07Z INFO CommandSettings] Arg 'auth': ''
+[2025-05-13 12:20:07Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-05-13 12:20:07Z INFO PromptManager] ReadValue
+[2025-05-13 12:20:07Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2025-05-13 12:20:07Z INFO Terminal] READ LINE
+[2025-05-13 12:20:15Z INFO Terminal] Read value: ''
+[2025-05-13 12:20:15Z INFO PromptManager] Falling back to the default: 'PAT'
+[2025-05-13 12:20:15Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2025-05-13 12:20:15Z INFO CredentialManager] GetCredentialProvider
+[2025-05-13 12:20:15Z INFO CredentialManager] Creating type PAT
+[2025-05-13 12:20:15Z INFO CredentialManager] Creating credential type: PAT
+[2025-05-13 12:20:15Z INFO PersonalAccessToken] EnsureCredential
+[2025-05-13 12:20:15Z INFO CommandSettings] Arg 'token': ''
+[2025-05-13 12:20:15Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-05-13 12:20:15Z INFO PromptManager] ReadValue
+[2025-05-13 12:20:15Z INFO Terminal] WRITE: Enter personal access token > 
+[2025-05-13 12:20:15Z INFO Terminal] READ SECRET
+[2025-05-13 12:21:31Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2025-05-13 12:21:31Z INFO Terminal] Read value: '***'
+[2025-05-13 12:21:31Z INFO ConfigurationManager] cred retrieved
+[2025-05-13 12:21:31Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2025-05-13 12:21:31Z INFO PersonalAccessToken] GetVssCredentials
+[2025-05-13 12:21:31Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2025-05-13 12:21:31Z INFO PersonalAccessToken] cred created
+[2025-05-13 12:21:31Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-13 12:21:32Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-13 12:21:32Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-13 12:21:32Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-13 12:21:32Z INFO PersonalAccessToken] GetVssCredentials
+[2025-05-13 12:21:32Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2025-05-13 12:21:32Z INFO PersonalAccessToken] cred created
+[2025-05-13 12:21:32Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2025-05-13 12:21:32Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2025-05-13 12:21:32Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-13 12:21:33Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-13 12:21:33Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-05-13 12:21:33Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-13 12:21:33Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-05-13 12:21:33Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-13 12:21:33Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-13 12:21:33Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-13 12:21:33Z INFO ConfigurationManager] Test Connection complete.
+[2025-05-13 12:21:33Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:21:33Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:21:33Z INFO HostContext] Well known config file 'RSACredentials': '/home/itamar/github/agent/.credentials_rsaparams'
+[2025-05-13 12:21:33Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2025-05-13 12:21:34Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:21:34Z INFO RSAFileKeyManager] Which: 'chmod'
+[2025-05-13 12:21:34Z INFO RSAFileKeyManager] Location: '{matches.First()}'
+[2025-05-13 12:21:34Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:21:34Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   Arguments: '600 /home/itamar/github/agent/.credentials_rsaparams'
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   Working directory: '/home/itamar/github/agent'
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper] Exited process 82790 with exit code 0
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper] Process started with process id 82790, waiting for process exit.
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-13 12:21:34Z INFO ProcessInvokerWrapper] Finished process 82790 with exit code 0, and elapsed time 00:00:00.0071231.
+[2025-05-13 12:21:34Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:21:34Z INFO Terminal] WRITE LINE: 
+[2025-05-13 12:21:34Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2025-05-13 12:21:34Z INFO Terminal] WRITE LINE: 
+[2025-05-13 12:21:34Z INFO CommandSettings] Arg 'pool': ''
+[2025-05-13 12:21:34Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-05-13 12:21:34Z INFO PromptManager] ReadValue
+[2025-05-13 12:21:34Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2025-05-13 12:21:34Z INFO Terminal] READ LINE
+[2025-05-13 12:21:43Z INFO Terminal] Read value: 'SelfHostedPool'
+[2025-05-13 12:21:43Z INFO BuildReleasesAgentConfigProvider] Found pool SelfHostedPool with id 10 and name SelfHostedPool
+[2025-05-13 12:21:43Z INFO CommandSettings] Arg 'agent': ''
+[2025-05-13 12:21:43Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-05-13 12:21:43Z INFO PromptManager] ReadValue
+[2025-05-13 12:21:43Z INFO Terminal] WRITE: Enter agent name (press enter for laptop) > 
+[2025-05-13 12:21:43Z INFO Terminal] READ LINE
+[2025-05-13 12:21:51Z INFO Terminal] Read value: 'ubuntu-agent'
+[2025-05-13 12:21:51Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2025-05-13 12:21:51Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2025-05-13 12:21:51Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-05-13 12:21:51Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-05-13 12:21:51Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.NixCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-05-13 12:21:51Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding '_': './bin/Agent.Listener'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'COLORTERM': 'truecolor'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com '
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'DESKTOP_SESSION': 'ubuntu'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'DISPLAY': ':0'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'GDMSESSION': 'ubuntu'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'GNOME_SETUP_DISPLAY': ':1'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'GNOME_SHELL_SESSION_MODE': 'ubuntu'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/93bef9ef_26f5_431f_a6e5_64476a2b35aa'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'GNOME_TERMINAL_SERVICE': ':1.121'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'GTK_MODULES': 'gail:atk-bridge'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'HOME': '/home/itamar'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'IM_CONFIG_PHASE': '1'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'LANG': 'en_US.UTF-8'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'LESSCLOSE': '/usr/bin/lesspipe %s %s'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'LESSOPEN': '| /usr/bin/lesspipe %s'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'LIBVIRT_DEFAULT_URI': 'qemu:///system'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGNAME': 'itamar'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Skipping: 'LS_COLORS'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA='
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'OLDPWD': '/home/itamar/github/agent'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'PWD': '/home/itamar/github/agent'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'QT_ACCESSIBILITY': '1'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'QT_IM_MODULE': 'ibus'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'SESSION_MANAGER': 'local/laptop:@/tmp/.ICE-unix/2927,unix/laptop:/tmp/.ICE-unix/2927'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'SHELL': '/bin/bash'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Skipping: 'SHLVL'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'SYSTEMD_EXEC_PID': '2979'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Skipping: 'TERM'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'USER': 'itamar'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'USERNAME': 'itamar'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'VTE_VERSION': '7600'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'WAYLAND_DISPLAY': 'wayland-0'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QL2Y62'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_MENU_PREFIX': 'gnome-'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_RUNTIME_DIR': '/run/user/1000'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_SESSION_CLASS': 'user'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_SESSION_DESKTOP': 'ubuntu'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'XDG_SESSION_TYPE': 'wayland'
+[2025-05-13 12:21:51Z INFO EnvironmentCapabilitiesProvider] Adding 'XMODIFIERS': '@im=ibus'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'android'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Checking file: 'tools/android'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Checking file: '/home/itamar/Library/Developer/Xamarin/android-sdk-macosx/tools/android'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'ant'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'waagent'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'bundle'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'clang'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'cmake'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'curl'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Adding 'curl': '/usr/bin/curl'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'docker'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Adding 'docker': '/usr/bin/docker'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'dotnet'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Adding 'dotnet': '/usr/bin/dotnet'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'git'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Adding 'git': '/usr/bin/git'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'gulp'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'java'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'javac'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'make'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'mvn'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'xbuild'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/xbuild'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'msbuild'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Mono.framework/Commands/msbuild'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'node'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'nodejs'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'npm'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'python'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'python3'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Adding 'python3': '/usr/bin/python3'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'sh'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Location: '{matches.First()}'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Adding 'sh': '/usr/bin/sh'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'ruby'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'rake'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'svn'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'mdtool'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Checking file: '/Applications/Xamarin Studio.app/Contents/MacOS/mdtool'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Checking file: '/Applications/Visual Studio.app/Contents/MacOS/vstool'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'generator'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Commands/generator'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Checking file: '/Library/Frameworks/Xamarin.Android.framework/Versions/Current/Version'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Which: 'xcode-select'
+[2025-05-13 12:21:51Z INFO CapabilitiesBuilder] Not found.
+[2025-05-13 12:21:51Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:21:51Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:21:51Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'ubuntu-agent'
+[2025-05-13 12:21:51Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Linux'
+[2025-05-13 12:21:51Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2025-05-13 12:21:51Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2025-05-13 12:21:51Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '4.255.0'
+[2025-05-13 12:21:51Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'laptop'
+[2025-05-13 12:21:51Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:21:51Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:21:51Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': '/home/itamar/github/agent'
+[2025-05-13 12:21:51Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2025-05-13 12:21:52Z INFO Terminal] WRITE LINE: Successfully added the agent
+[2025-05-13 12:21:52Z INFO ConfigurationManager] Agent server url resolve by server: 'https://dev.azure.com/ItamarRatson/'.
+[2025-05-13 12:21:52Z INFO ConfigurationStore] Saving OAuth credential @ /home/itamar/github/agent/.credentials
+[2025-05-13 12:21:52Z INFO ConfigurationStore] Credentials Saved.
+[2025-05-13 12:21:52Z INFO Terminal] WRITE LINE: Testing agent connection.
+[2025-05-13 12:21:52Z INFO ConfigurationStore] HasCredentials()
+[2025-05-13 12:21:52Z INFO ConfigurationStore] stored True
+[2025-05-13 12:21:52Z INFO CredentialManager] GetCredentialProvider
+[2025-05-13 12:21:52Z INFO CredentialManager] Creating type OAuth
+[2025-05-13 12:21:52Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-13 12:21:52Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:21:52Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2025-05-13 12:21:52Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-13 12:21:52Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodneu3.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 2be1ffe1-41bc-40e7-9e29-299d9d16fd2a
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: dd5bc16e-b7b7-45e2-a84d-52b49e5bf62c
+X-TFS-Session: 2e1c403a-aadf-4d77-af67-4e3d4a658588
+X-VSS-E2EID: 19481421-b2e0-40d9-b2a7-a93d18eb0a5a
+X-VSS-SenderDeploymentId: d9ce0c85-0c81-df07-69c7-7dd2279019be
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodneu3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/ItamarRatson/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/ItamarRatson/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodneu1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2FItamarRatson%2F_apis%2FconnectionData%3FconnectOptions%3D1%26lastChangeId%3D-1%26lastChangeId64%3D-1&redirect=1&hid=cc04ea86-dc3f-44c5-a7a7-47c147dc02e8&context=eyJodCI6MiwiaGlkIjoiYmJhOTAxODAtOGU4Ny00NzdkLThmOGQtZGM3ZDk3OGYzN2Q2IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:3b290982-edaa-4a50-808e-c001f7daef49
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 6CD55AF593F543B5869A96B15FC4BFD1 Ref B: TLV30EDGE0115 Ref C: 2025-05-13T12:21:52Z
+Date: Tue, 13 May 2025 12:21:52 GMT
+
+[2025-05-13 12:21:52Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:21:52Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:21:53Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2025-05-13 12:21:53Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-13 12:21:53Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-05-13 12:21:53Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-13 12:21:53Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2025-05-13 12:21:53Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-13 12:21:54Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-13 12:21:54Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-13 12:21:54Z INFO CommandSettings] Arg 'work': ''
+[2025-05-13 12:21:54Z INFO CommandSettings] Flag 'unattended': 'False'
+[2025-05-13 12:21:54Z INFO PromptManager] ReadValue
+[2025-05-13 12:21:54Z INFO Terminal] WRITE: Enter work folder (press enter for _work) > 
+[2025-05-13 12:21:54Z INFO Terminal] READ LINE
+[2025-05-13 12:21:56Z INFO Terminal] Read value: ''
+[2025-05-13 12:21:56Z INFO PromptManager] Falling back to the default: '_work'
+[2025-05-13 12:21:56Z INFO CommandSettings] Flag 'disableloguploads': 'False'
+[2025-05-13 12:21:56Z INFO CommandSettings] Flag 'restreamlogstofiles': 'False'
+[2025-05-13 12:21:56Z INFO CommandSettings] Flag 'alwaysextracttask': 'False'
+[2025-05-13 12:21:56Z INFO ConfigurationStore] Saving agent settings.
+[2025-05-13 12:21:56Z INFO ConfigurationStore] Settings Saved.
+[2025-05-13 12:21:56Z INFO Terminal] WRITE LINE: 2025-05-13 12:21:56Z: Settings Saved.
+[2025-05-13 12:21:56Z INFO SystemDControlManager] Service name 'vsts.agent.ItamarRatson.SelfHostedPool.ubuntu-agent.service' display name 'Azure Pipelines Agent (ItamarRatson.SelfHostedPool.ubuntu-agent)' will be used for service configuration.
+[2025-05-13 12:21:56Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:21:56Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:21:56Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:21:56Z INFO HostContext] Well known directory 'Bin': '/home/itamar/github/agent/bin'
+[2025-05-13 12:21:56Z INFO HostContext] Well known directory 'Root': '/home/itamar/github/agent'
+[2025-05-13 12:21:56Z INFO UnixUtil] Which: 'chmod'
+[2025-05-13 12:21:56Z INFO UnixUtil] Location: '{matches.First()}'
+[2025-05-13 12:21:56Z INFO UnixUtil] Running /usr/bin/chmod 755 "/home/itamar/github/agent/svc.sh"
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   Arguments: '755 "/home/itamar/github/agent/svc.sh"'
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   Working directory: '/home/itamar/github/agent'
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 82881.
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper] Process started with process id 82881, waiting for process exit.
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper] Exited process 82881 with exit code 0
+[2025-05-13 12:21:56Z INFO ProcessInvokerWrapper] Finished process 82881 with exit code 0, and elapsed time 00:00:00.0018166.
+[2025-05-13 12:21:56Z INFO ConfigurationStore] HasCredentials()
+[2025-05-13 12:21:56Z INFO ConfigurationStore] stored True
+[2025-05-13 12:21:56Z INFO CredentialManager] GetCredentialProvider
+[2025-05-13 12:21:56Z INFO CredentialManager] Creating type OAuth
+[2025-05-13 12:21:56Z INFO CredentialManager] Creating credential type: OAuth
+[2025-05-13 12:21:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:21:56Z INFO ConfigurationManager] LoadSettings
+[2025-05-13 12:21:56Z INFO ConfigurationStore] IsConfigured()
+[2025-05-13 12:21:56Z INFO ConfigurationStore] IsConfigured: True
+[2025-05-13 12:21:56Z INFO ConfigurationManager] Is configured: True
+[2025-05-13 12:21:56Z INFO ConfigurationStore] Read setting file: 201 chars
+[2025-05-13 12:21:56Z INFO ConfigurationManager] Settings Loaded
+[2025-05-13 12:21:56Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodneu3.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 90edeb96-aab6-477a-a1fd-ad86ba8bff11
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 33a23108-878b-4514-80df-5f798d85df18
+X-TFS-Session: 2e1c403a-aadf-4d77-af67-4e3d4a658588
+X-VSS-E2EID: 761df857-1977-447a-86f0-ccd72c1ab4a3
+X-VSS-SenderDeploymentId: d9ce0c85-0c81-df07-69c7-7dd2279019be
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodneu3.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/ItamarRatson/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/ItamarRatson/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodneu1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2FItamarRatson%2F_apis%2FCustomerIntelligence%2FEvents&redirect=1&hid=cc04ea86-dc3f-44c5-a7a7-47c147dc02e8&context=eyJodCI6MiwiaGlkIjoiYmJhOTAxODAtOGU4Ny00NzdkLThmOGQtZGM3ZDk3OGYzN2Q2IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:3b290982-edaa-4a50-808e-c001f7daef49
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: F4B8E1BF345748CAA6B8C7107C1AFFF4 Ref B: TLV30EDGE0107 Ref C: 2025-05-13T12:21:56Z
+Date: Tue, 13 May 2025 12:21:56 GMT
+
+[2025-05-13 12:21:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:21:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/itamar/github/agent/.credentials_rsaparams
+[2025-05-13 12:21:57Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
