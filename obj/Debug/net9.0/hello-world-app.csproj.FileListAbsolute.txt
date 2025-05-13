@@ -1,0 +1,14 @@
+/home/itamar/git/projects/azure-devops/hello-world-app/bin/Debug/net9.0/hello-world-app
+/home/itamar/git/projects/azure-devops/hello-world-app/bin/Debug/net9.0/hello-world-app.deps.json
+/home/itamar/git/projects/azure-devops/hello-world-app/bin/Debug/net9.0/hello-world-app.runtimeconfig.json
+/home/itamar/git/projects/azure-devops/hello-world-app/bin/Debug/net9.0/hello-world-app.dll
+/home/itamar/git/projects/azure-devops/hello-world-app/bin/Debug/net9.0/hello-world-app.pdb
+/home/itamar/git/projects/azure-devops/hello-world-app/obj/Debug/net9.0/hello-world-app.GeneratedMSBuildEditorConfig.editorconfig
+/home/itamar/git/projects/azure-devops/hello-world-app/obj/Debug/net9.0/hello-world-app.AssemblyInfoInputs.cache
+/home/itamar/git/projects/azure-devops/hello-world-app/obj/Debug/net9.0/hello-world-app.AssemblyInfo.cs
+/home/itamar/git/projects/azure-devops/hello-world-app/obj/Debug/net9.0/hello-world-app.csproj.CoreCompileInputs.cache
+/home/itamar/git/projects/azure-devops/hello-world-app/obj/Debug/net9.0/hello-world-app.dll
+/home/itamar/git/projects/azure-devops/hello-world-app/obj/Debug/net9.0/refint/hello-world-app.dll
+/home/itamar/git/projects/azure-devops/hello-world-app/obj/Debug/net9.0/hello-world-app.pdb
+/home/itamar/git/projects/azure-devops/hello-world-app/obj/Debug/net9.0/hello-world-app.genruntimeconfig.cache
+/home/itamar/git/projects/azure-devops/hello-world-app/obj/Debug/net9.0/ref/hello-world-app.dll
